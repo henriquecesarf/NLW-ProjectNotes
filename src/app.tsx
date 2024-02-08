@@ -2,6 +2,7 @@ import { ChangeEvent, useState } from "react"
 import logo from "./assets/Logo.svg"
 import { NewCard } from "./components/new-card"
 import { NoteCard } from "./components/note-card"
+import { toast } from "sonner"
 
 interface Note {
   id: string
@@ -55,6 +56,7 @@ export function App() {
     setNotes(notesArray);
 
     localStorage.setItem("notes", JSON.stringify(notesArray));
+    toast.error("Nota deletada com sucesso!")
   }
   return (
     <div className="mx-auto max-w-6xl my-12 space-y-6 px-5 md:px-0">
