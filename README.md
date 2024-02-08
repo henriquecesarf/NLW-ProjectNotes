@@ -22,5 +22,7 @@ yarn build
 # or
 npm run build
 ```
+![telaInicial](https://github.com/henriquecesarf/NLW-ProjectNotes/assets/66320640/97ff35f3-bb2d-4a03-96fe-a99f63d4ee7d)
 
+![modaldecriarnotas](https://github.com/henriquecesarf/NLW-ProjectNotes/assets/66320640/bf2c34fb-d266-48f6-b6c0-14b354dd4f3e)
 
